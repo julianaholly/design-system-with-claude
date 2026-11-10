@@ -49,10 +49,11 @@ Five to ten good pieces of one type is enough to start. If you have nothing you 
 
 ## The order at a glance
 
-Do these in order. Steps 1 to 6 happen once. Steps 7 and 8 keep going for as long as you use the system.
+Start in plan mode, then do these in order. Steps 1 to 6 happen once. Steps 7 and 8 keep going for as long as you use the system.
 
 | # | Step | You | Claude | Done when |
 | --- | --- | --- | --- | --- |
+| Before you start | Switch on plan mode | Turn it on, read the plan, correct it, approve it | Reads and asks questions, builds nothing yet | You've approved a plan |
 | 1 | Set the brief | Say the goal, who approves, what's in and out | Asks only what it can't find | The scope fits in a few lines |
 | 2 | Open up the real files | Give access, download online-only files | Finds where the approved work lives and how it can work in your design app | You know the files and the tool Claude will use |
 | 3 | Set up the system and the log | Approve the plan | Creates the empty system and a running log | Both exist |
@@ -63,6 +64,25 @@ Do these in order. Steps 1 to 6 happen once. Steps 7 and 8 keep going for as lon
 | 8 | Do real jobs and keep teaching it | Review, send, pass on feedback | Builds proofs, turns notes into rules | First drafts get approved with few changes |
 
 ## Step by step
+
+### Before you start: switch on plan mode
+
+This is the step I'd tell everyone not to skip. I've tried it both ways and the results are very different.
+
+**What plan mode is.** A setting where Claude can look and think but can't change anything. It reads your files, asks you questions, and writes out what it intends to do. Nothing gets built until you've read that plan and said yes.
+
+**Why it matters so much here.** Without it, Claude starts building from its first guesses, and a design system built on a wrong guess stays wrong all the way down: every recipe and every draft inherits it. In plan mode the guesses come out in the open first, where fixing them costs one sentence.
+
+**How to turn it on.** In Claude Code, pick **Plan** from the mode menu next to the message box before you send your first message (in the terminal version, press Shift+Tab until it says plan mode). If your version of Claude has no plan mode, start your first message with: "Don't build or change anything yet. Read what you need, ask me questions, then give me a plan and wait for my yes."
+
+**What to do with the plan:**
+
+- Read all of it, even the dull parts. This is the cheapest moment to change direction.
+- Correct anything that's wrong or that you wouldn't have chosen, in plain words.
+- Check it says what Claude will *not* touch (your approved files, anything shared).
+- Approve it only when you'd be happy for Claude to follow it without you watching.
+
+Go back into plan mode before any other big move: writing the system (step 5), building the shortcut (step 6), and the first real job (step 8).
 
 ### 1. Set the brief
 
@@ -188,6 +208,7 @@ If the answers are no, log it as a note, not a rule.
 
 ## Common traps
 
+- **Skipping plan mode.** Letting Claude start building straight away feels faster and isn't. See **Before you start**.
 - **Trusting a file name.** Open the file before believing what it's called.
 - **Judging by the type.** Type can match perfectly while the piece still fails on photos and space.
 - **Designing new layouts too early.** The fastest approval usually comes from what already got approved.
@@ -200,7 +221,7 @@ If the answers are no, log it as a note, not a rule.
 
 If you're not sure what to put in the brackets, say so in plain words ("I approve everything myself", "my examples are six flyers in a folder called Flyers") and ask Claude to help you fill in the rest.
 
-**Starting a new system:**
+**Starting a new system** (send this in plan mode):
 
 > I want a design system so you can do the design work for [brand] and get first drafts approved. Approvals come from [people], and their taste matters more than best practice. Learn from [period]. It covers [scope] and not [exclusions]. The files are in [location]. Spell out two pathways: what did I get, and what did they say. Keep a log after every step, and give me a plan first.
 
@@ -214,6 +235,7 @@ If you're not sure what to put in the brackets, say so in plain words ("I approv
 
 ## Checklist: is the system ready?
 
+- [ ] You started in plan mode and approved a plan before anything was built
 - [ ] All values come from real approved files
 - [ ] Every type of piece in scope has a recipe and a file to start from
 - [ ] Every section is written and easy to find
