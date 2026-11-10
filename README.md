@@ -33,10 +33,7 @@ Five to ten good pieces of one type is enough to start. If you have nothing you 
 
 | Word | Meaning |
 | --- | --- |
-| Copy | The words in a piece |
-| Proof | A draft exported for someone to look at, usually a PDF |
 | Type, type styles | Fonts, and the set sizes and weights used for headings, text and captions |
-| Grid | The invisible columns and margins everything lines up to |
 | Component | A reusable building block, such as a photo with its caption |
 | Skill | A saved set of instructions that teaches Claude how to do a specific job |
 
@@ -61,7 +58,7 @@ Start in plan mode, then do these in order. Steps 1 to 6 happen once. Steps 7 an
 | 5 | Write the system | Review it for taste and truth | Writes the look, parts, two pathways and specs | Every section is written |
 | 6 | Build the shortcut | Try a one-line request | Builds the skill that does the job in your app | One line starts a job |
 | 7 | Test on approved work | Judge each result and give notes | Rebuilds approved pieces, compares, fixes | Every main type matches the approved structure |
-| 8 | Do real jobs and keep teaching it | Review, send, pass on feedback | Builds proofs, turns notes into rules | First drafts get approved with few changes |
+| 8 | Do real jobs and keep teaching it | Review, send, pass on feedback | Builds drafts, turns notes into rules | First drafts get approved with few changes |
 
 ## Step by step
 
@@ -98,9 +95,9 @@ Decide these before anything is built:
 
 ### 2. Open up the real files
 
-- List where approved work, drafts, copy, photos, fonts, logos and feedback live.
+- List where approved work, drafts, text, photos, fonts, logos and feedback live.
 - Check the fonts are installed and download any files that only exist in the cloud. If you don't know what your fonts are called, Claude can read them from a file or a PDF.
-- Ask whether Claude can work directly in your design app. This was my biggest finding. Claude could open the last approved file, save a copy, swap in the new copy and photos, and export a proof, with no mockups in between. If it can't work in your app, ask what the next best route is: often it's a template file Claude fills in, or a piece Claude builds itself for you to finish.
+- Ask whether Claude can work directly in your design app. This was my biggest finding. Claude could open the last approved file, save a duplicate, swap in the new text and photos, and export a PDF draft, with no mockups in between. If it can't work in your app, ask what the next best route is: often it's a template file Claude fills in, or a piece Claude builds itself for you to finish.
 - Find out where feedback really arrives (email, text messages, comments on a PDF), and don't assume.
 
 ### 3. Set up the system and the log
@@ -135,15 +132,15 @@ This is a Claude skill, so a short request is enough to start a job. Claude shou
 
 - read the system and pick the recipe
 - start from the last approved file, saved as a new copy
-- place the supplied copy and photos as they are, and flag problems instead of fixing them
-- check the result, compare it with the approved piece, and export a proof
+- place the supplied text and photos as they are, and flag problems instead of fixing them
+- check the result, compare it with the approved piece, and export a draft for you to review
 - report what's still open: names, credits, low-resolution photos
 
 Set the safety limits here too. See **Limits to set on day one** below.
 
 ### 7. Test on approved work
 
-This is the step that makes the system good. Give Claude only the raw copy and photos of a piece that's already approved, then compare its rebuild with the real one.
+This is the step that makes the system good. Give Claude only the raw text and photos of a piece that's already approved, then compare its rebuild with the real one.
 
 - Test one of each main type, simplest first, and don't move on until the structure matches.
 - Expect several rounds. Type usually matches straight away. Layout, cropping, spacing and photo choice take the rounds.
@@ -191,7 +188,7 @@ If the answers are no, log it as a note, not a rule.
 | You | Claude |
 | --- | --- |
 | Set the goal and the scope | Reads files, measures and compares |
-| Judge the result and say what's right, in your own words | Builds proofs and checks them against the rules |
+| Judge the result and say what's right, in your own words | Builds drafts and checks them against the rules |
 | Say which notes are rules | Proposes rules and writes them down |
 | Supply access, names and missing files | Lists what's missing and flags doubts |
 | Review and send everything | Never sends, and asks before anything hard to undo |
@@ -202,7 +199,7 @@ If the answers are no, log it as a note, not a rule.
 - Never overwrite an approved file. Always save a new copy.
 - Ask before replacing any existing export, even if the working file looks newer.
 - Ask before the first save into a shared folder.
-- Never write or change the copy. Place it as supplied and flag problems.
+- Never write or change the text. Place it as supplied and flag problems.
 - Never invent a name, credit, price or claim. Use a visible placeholder and list it in the report.
 - Check for your own hand edits before changing a file.
 
@@ -214,7 +211,7 @@ If the answers are no, log it as a note, not a rule.
 - **Designing new layouts too early.** The fastest approval usually comes from what already got approved.
 - **Comparing unlike files.** A logo can look too big only because one file has crop marks and the other doesn't. Compare at the same size.
 - **Rules made too fast.** Reversing a rule later costs more than waiting a round.
-- **Copy that's longer than last time.** Plan for it. Rework the layout, and don't cut copy or shrink type.
+- **Text that's longer than last time.** Plan for it. Rework the layout, and don't cut the text or shrink the type.
 - **Duplicate or conflicting rules.** When adding a rule, search for older ones it contradicts.
 
 ## Lines to start with
@@ -227,7 +224,7 @@ If you're not sure what to put in the brackets, say so in plain words ("I approv
 
 **Testing:**
 
-> Rebuild [approved piece] using only its raw copy and photos, starting from [earlier file]. Save it in the test folder, compare it with the approved one, and tell me what differs.
+> Rebuild [approved piece] using only its raw text and photos, starting from [earlier file]. Save it in the test folder, compare it with the approved one, and tell me what differs.
 
 **Passing on feedback:**
 
