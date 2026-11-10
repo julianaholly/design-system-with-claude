@@ -33,7 +33,6 @@ Five to ten good pieces of one type is enough to start. If you have nothing you 
 
 | Word | Meaning |
 | --- | --- |
-| Type, type styles | Fonts, and the set sizes and weights used for headings, text and captions |
 | Component | A reusable building block, such as a photo with its caption |
 | Skill | A saved set of instructions that teaches Claude how to do a specific job |
 
@@ -117,7 +116,7 @@ Decide these before anything is built:
 
 In this order, because each part builds on the last:
 
-1. **The look:** colours, type styles, grid and logos.
+1. **The look:** colours, fonts (with the sizes and weights used for headings, text and captions), grid and logos.
 2. **The parts:** reusable components, each with its real settings in your app.
 3. **Start here:** what the brand's look means in practice, and the rules that matter most.
 4. **"What did I get?"** One recipe per type of piece: size, parts in order, file to start from, steps, what usually gets sent back, and the line to give Claude.
@@ -143,7 +142,7 @@ Set the safety limits here too. See **Limits to set on day one** below.
 This is the step that makes the system good. Give Claude only the raw text and photos of a piece that's already approved, then compare its rebuild with the real one.
 
 - Test one of each main type, simplest first, and don't move on until the structure matches.
-- Expect several rounds. Type usually matches straight away. Layout, cropping, spacing and photo choice take the rounds.
+- Expect several rounds. Fonts usually match straight away. Layout, cropping, spacing and photo choice take the rounds.
 - Be specific in notes: "more space between photos and captions" beats "it's off". You don't need design vocabulary. Put the draft next to the real piece and say what you see: "the heading is bigger in mine", "theirs has more empty space at the top".
 - When you say something's wrong, ask Claude to measure the approved file, not guess.
 - Save every test in a test folder so nothing touches real work.
@@ -207,11 +206,11 @@ If the answers are no, log it as a note, not a rule.
 
 - **Skipping plan mode.** Letting Claude start building straight away feels faster and isn't. See **Before you start**.
 - **Trusting a file name.** Open the file before believing what it's called.
-- **Judging by the type.** Type can match perfectly while the piece still fails on photos and space.
+- **Judging by the fonts.** Fonts can match perfectly while the piece still fails on photos and space.
 - **Designing new layouts too early.** The fastest approval usually comes from what already got approved.
 - **Comparing unlike files.** A logo can look too big only because one file has crop marks and the other doesn't. Compare at the same size.
 - **Rules made too fast.** Reversing a rule later costs more than waiting a round.
-- **Text that's longer than last time.** Plan for it. Rework the layout, and don't cut the text or shrink the type.
+- **Text that's longer than last time.** Plan for it. Rework the layout, and don't cut the text or shrink the font size.
 - **Duplicate or conflicting rules.** When adding a rule, search for older ones it contradicts.
 
 ## Lines to start with
