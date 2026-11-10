@@ -1,8 +1,44 @@
 # How to build a design system with Claude
 
-A step-by-step guide for people who don't code. It's the process I used, as a brand designer, to build a design system that Claude can actually work from: one where you hand over the copy and photos, Claude builds the piece in your design app, and the first draft is close enough to get approved.
+A step-by-step guide for people who don't code, whether or not you're a designer. It's the process I used, as a brand designer, to build a design system that Claude can actually work from: one where you hand over the words and photos, Claude builds the piece, and the first draft is close enough to get approved.
 
-It works for any brand with a body of approved work: a magazine, a company's marketing, a client's social templates. The examples are illustrations, not a case study.
+It works for any brand with some finished work to learn from: a magazine, a company's marketing, a small business's social posts, a client's templates. The examples are illustrations, not a case study.
+
+## Who this is for
+
+- **Designers** who want Claude to take on production work in the brand they already know.
+- **Non-designers** who look after a brand without a designer on hand: a founder, a marketer, an office manager, a volunteer running a charity's newsletter. You don't need design training. You need examples of work that already looks right, and the patience to say "yes, that" and "no, not that".
+
+## If you're not a designer, read this first
+
+**What a design system is.** A written description of how a brand looks and how its pieces are put together: the colours, the fonts, the logo, the spacing, and a recipe for each thing you make (a flyer, a social post, a slide deck). With it, anyone, including Claude, can make a new piece that looks like it belongs.
+
+**You are not designing anything from scratch.** The method is to copy what already works. Claude studies finished pieces that someone was happy with, writes down what they have in common, and then builds new pieces the same way. Your job is to supply the examples and judge the results.
+
+**Where your examples come from.** Wherever this guide says "approved work", use the best of what you have:
+
+- pieces a designer or agency made for you in the past
+- a brand guidelines document, if one exists
+- templates you already use (in Canva, PowerPoint, Google Slides, Word)
+- your website
+- anything you've sent out that you were proud of
+
+Five to ten good pieces of one type is enough to start. If you have nothing you like yet, this guide isn't the right first step: get a designer to make a starting set, then come back.
+
+**Who "the approver" is.** In a company it's whoever signs off: a manager, a client, a creative director. If that's you, you're the approver. Everything here about collecting feedback still applies, only the feedback is your own reactions, written down.
+
+**What "your design app" means.** The program your pieces are made in. For designers that's usually InDesign, Illustrator or Figma. For everyone else it's often Canva, PowerPoint, Google Slides or Word. Claude can work in some apps directly and with others through files you export, so step 2 includes asking Claude what's possible with yours.
+
+**A few words used below:**
+
+| Word | Meaning |
+| --- | --- |
+| Copy | The words in a piece |
+| Proof | A draft exported for someone to look at, usually a PDF |
+| Type, type styles | Fonts, and the set sizes and weights used for headings, text and captions |
+| Grid | The invisible columns and margins everything lines up to |
+| Component | A reusable building block, such as a photo with its caption |
+| Skill | A saved set of instructions that teaches Claude how to do a specific job |
 
 ## What you end up with
 
@@ -33,9 +69,9 @@ Do these in order. Steps 1 to 6 happen once. Steps 7 and 8 keep going for as lon
 Decide these before anything is built:
 
 - **The real goal.** Mine was: Claude does the production design, and first drafts get approved.
-- **Who approves, and what they actually like.** Their taste beats best practice, so follow what gets approved.
+- **Who approves, and what they actually like.** Their taste beats best practice, so follow what gets approved. If you approve your own work, that's you: write down what you like in the examples and why, as well as you can.
 - **Scope.** What's in and what's out. Include work you don't do yourself if Claude should be able to do it.
-- **The period to learn from.** Use recent work only, so old habits don't creep in.
+- **The work to learn from.** Use recent pieces only, so old habits don't creep in. If different people made your examples in different styles, pick the ones you want more of and leave the rest out.
 - **New or existing.** If a system already exists, say whether to update it or leave it alone.
 - **Words that mislead.** Write down what people say versus what gets approved. A team might describe the brand as "bold and colourful" while every approved piece is black and white with one accent colour. The approved work wins.
 - **What it isn't.** Decide whether this is a working tool or a handbook. A working tool only needs to be clear enough for someone new.
@@ -43,8 +79,8 @@ Decide these before anything is built:
 ### 2. Open up the real files
 
 - List where approved work, drafts, copy, photos, fonts, logos and feedback live.
-- Check the fonts are installed and download any files that only exist in the cloud.
-- Ask whether Claude can work directly in your design app. This was my biggest finding. Claude could open the last approved file, save a copy, swap in the new copy and photos, and export a proof, with no mockups in between.
+- Check the fonts are installed and download any files that only exist in the cloud. If you don't know what your fonts are called, Claude can read them from a file or a PDF.
+- Ask whether Claude can work directly in your design app. This was my biggest finding. Claude could open the last approved file, save a copy, swap in the new copy and photos, and export a proof, with no mockups in between. If it can't work in your app, ask what the next best route is: often it's a template file Claude fills in, or a piece Claude builds itself for you to finish.
 - Find out where feedback really arrives (email, text messages, comments on a PDF), and don't assume.
 
 ### 3. Set up the system and the log
@@ -54,7 +90,7 @@ Decide these before anything is built:
 
 ### 4. Study what got approved
 
-- **Read the real files.** Take styles, sizes, colours and grids from them, not from looking at a picture.
+- **Read the real files.** Take styles, sizes, colours and grids from them, not from looking at a picture. You don't need to know these values yourself. Claude finds them and shows you, and you confirm they look right.
 - **Map every type of piece,** and note the file to start from for each.
 - **Compare drafts with finals.** What changed between them is what gets sent back.
 - **Collect real feedback** in the approvers' own words.
@@ -91,7 +127,7 @@ This is the step that makes the system good. Give Claude only the raw copy and p
 
 - Test one of each main type, simplest first, and don't move on until the structure matches.
 - Expect several rounds. Type usually matches straight away. Layout, cropping, spacing and photo choice take the rounds.
-- Be specific in notes: "more space between photos and captions" beats "it's off".
+- Be specific in notes: "more space between photos and captions" beats "it's off". You don't need design vocabulary. Put the draft next to the real piece and say what you see: "the heading is bigger in mine", "theirs has more empty space at the top".
 - When you say something's wrong, ask Claude to measure the approved file, not guess.
 - Save every test in a test folder so nothing touches real work.
 
@@ -135,7 +171,7 @@ If the answers are no, log it as a note, not a rule.
 | You | Claude |
 | --- | --- |
 | Set the goal and the scope | Reads files, measures and compares |
-| Judge taste and say what's right | Builds proofs and checks them against the rules |
+| Judge the result and say what's right, in your own words | Builds proofs and checks them against the rules |
 | Say which notes are rules | Proposes rules and writes them down |
 | Supply access, names and missing files | Lists what's missing and flags doubts |
 | Review and send everything | Never sends, and asks before anything hard to undo |
@@ -161,6 +197,8 @@ If the answers are no, log it as a note, not a rule.
 - **Duplicate or conflicting rules.** When adding a rule, search for older ones it contradicts.
 
 ## Lines to start with
+
+If you're not sure what to put in the brackets, say so in plain words ("I approve everything myself", "my examples are six flyers in a folder called Flyers") and ask Claude to help you fill in the rest.
 
 **Starting a new system:**
 
